@@ -1,0 +1,31 @@
+* TARGET : variable 1 client en difficulté / variable 0 client pas en difficulté
+NAME_CONTRACT_TYPE : prêt est en espèces ou renouvelable
+CODE_GENDER : genre du client
+FLAG_OWN_REALTY : si le client possède une maison ou un appartement
+CNT_CHILDREN : nombre d'enfant
+* AMT_INCOME_TOTAL : Revenu du client
+* AMT_CREDIT : montant du crédit du prêt
+* AMT_ANNUITY : rente du prêt
+* AMT_GOODS_PRICE : Pour les prêts à la consommation c'est le prix des biens pour lesquels le prêt est accordé
+NAME_TYPE_SUITE : Qui accompagnait le client lors de sa demande de prêt
+* NAME_INCOME_TYPE : type de revenus
+* NAME_EDUCATION_TYPE : niveau de scolarité
+* NAME_FAMILY_STATUS : situation familiale du client
+NAME_HOUSING_TYPE : situation de logement du client
+* DAYS_BIRTH : âge du client
+DAYS_EMPLOYED : Combien de jours avant la demande la personne a commencé l'emploi actuel
+DAYS_REGISTRATION : Combien de jours avant la demande le client a-t-il modifié son inscription
+REGION_RATING_CLIENT : Notre évaluation de la région où vit le client (1,2,3)
+CREDIT_ACTIVE : Statut des crédits déclarés par la centrale des risques (CB)
+DAYS_CREDIT : Combien de jours avant la demande actuelle le client a-t-il demandé un crédit au bureau de crédit
+CREDIT_DAY_OVERDUE : Nombre de jours d'impayés sur crédit CB au moment de la demande de prêt connexe dans notre échantillon
+DAYS_CREDIT_ENDDATE : Durée restante du crédit CB (en jours) au moment de la demande en Crédit Immobilier
+DAYS_ENDDATE_FACT : Jours écoulés depuis la fin du crédit CB au moment de la demande en Crédit Maison (uniquement pour le crédit clôturé)
+AMT_CREDIT_MAX_OVERDUE : Montant maximal en souffrance sur le crédit du bureau de crédit jusqu'à présent
+
+
+plotly camembert intéractif
+missing no visualisation des valeurs manquantes
+unbalanced dataset
+python smote
+undersampling
