@@ -100,9 +100,7 @@ if __name__ == '__main__':
 
     st.markdown("## Deuxième chapitre : Statut du client")
     age = data['DAYS_BIRTH'].round(0)
-    st.write("L'âge du client est : ", age.values)
-    st.write(data[["REGION_POPULATION_RELATIVE", "DAYS_ID_PUBLISH", "WEEKDAY_APPR_PROCESS_START", "HOUR_APPR_PROCESS_START",
-                "AMT_REQ_CREDIT_BUREAU_YEAR"]])
+    st.write("L'âge du client est : ", age)
     statut = ['Laborers', 'Core staff', 'Accountants', 'Managers', 'Drivers', 'Sales staff', 'Cleaning staff', 'Cooking staff',
             'Private service staff', 'Medicine staff', 'Security staff', 'High skill tech staff', 'Waiters/barmen staff',
             'Low-skill Laborers', 'Realty agents', 'Secretaries', 'IT staff', 'HR staff']
@@ -113,4 +111,5 @@ if __name__ == '__main__':
     st.markdown("## Troisième chapitre : Information sur le crédit")
     graphique(data)
     quatrieme_chapitre(data, val)
+    st.markdown("## Cinquième chapitre : Features gloabl et features local")
     fc_global(rep)
